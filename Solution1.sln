@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld1", "HelloWorld1\HelloWorld1.csproj", "{5621134B-430A-48E9-8226-9C3DF37C6FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld2NeedToRemove", "HelloWorld2NeedToRemove\HelloWorld2NeedToRemove.csproj", "{49A7EE6D-64C1-48A6-B14F-5392E91B75AE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5621134B-430A-48E9-8226-9C3DF37C6FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5621134B-430A-48E9-8226-9C3DF37C6FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5621134B-430A-48E9-8226-9C3DF37C6FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5621134B-430A-48E9-8226-9C3DF37C6FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A7EE6D-64C1-48A6-B14F-5392E91B75AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A7EE6D-64C1-48A6-B14F-5392E91B75AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A7EE6D-64C1-48A6-B14F-5392E91B75AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A7EE6D-64C1-48A6-B14F-5392E91B75AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
